@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>She Said Yes 💕</title>
+<style>
+body{
+ margin:0;
+ font-family:'Poppins',Arial;
+ color:white;
+ overflow:hidden;
+}
+video{
+ position:fixed;
+ top:0;left:0;
+ width:100%;
+ height:100%;
+ object-fit:cover;
+ z-index:-1;
+ filter:brightness(0.6) blur(1px);
+}
+.overlay{
+ position:relative;
+ min-height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ padding:20px;
+}
+.card{
+ background:#00000055;
+ border-radius:20px;
+ padding:25px;
+ max-width:900px;
+ backdrop-filter:blur(8px);
+}
+.spotify{margin:20px auto;max-width:420px;}
+.love-letter{text-align:left;margin-top:15px;}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop playsinline>
+ <source src="background.mp4" type="video/mp4">
+</video>
+
+<div class="overlay">
+ <div class="card">
+   <h1>She said YES 😍</h1>
+   <p>Let this moment loop forever…</p>
+
+   <div class="spotify">
+     <iframe style="border-radius:12px"
+       src="https://open.spotify.com/embed/track/1jzDzZWeSDBg5fhNc3tczV"
+       width="100%" height="152" frameborder="0"
+       allow="autoplay; clipboard-write; encrypted-media">
+     </iframe>
+   </div>
+
+   <div class="love-letter">
+     <h2>💌 A Letter For You</h2>
+     <p>
+       Sasha, this video looping in the background is a reminder that
+       I want moments with you to never end. Thank you for choosing me ❤️
+     </p>
+   </div>
+ </div>
+</div>
+</body>
+</html>
